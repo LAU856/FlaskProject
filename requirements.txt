@@ -1,5 +1,6 @@
 tensorflow-cpu
 numpy==1.19.2
 Flask==1.1.2
+Keras==2.4.3
 gunicorn==19.9.0
 
