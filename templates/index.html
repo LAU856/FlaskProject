@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <div class="inner">
+    <nav id="nav" style="font-family:verdana;">
+  <a href="/" style="color:#FFFFFF">PREDICTIONS </a>
+  <a href="/predictions" style="color:#FFFFFF" >ABOUT</a>
+  </nav>
+</div>
+</head>
+  <body>
+  <div class="container">
+    <img src="../static/S1.png" alt="Godess" class="logo" align="right">
+  </div>
+    <h1>Yoga Pose Classifier</h1>
+
+    <form class="p-3 text-control" action='/' , method="POST"enctype="multipart/form-data">
+      <input class="form-control" type="file" name="imagefile">
+      <input class="btn btn-primary mt-3" type="submit" value="Predict Image">
+    </form>
+    {% if prediction %}
+    {% endif %}
+</head>
+
+  </body>
+<footer>&copy; Copyright & Stuff 2021. By Hanane, Virginie and Veronica. Made With ❤️ & a lot of 💧.</footer>
+</html>
